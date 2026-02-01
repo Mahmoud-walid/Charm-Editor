@@ -1,0 +1,3 @@
+[submodule "packages/glsl_analyzer"]
+	path = packages/glsl_analyzer
+	url = https://github.com/nolanderc/glsl_analyzer
