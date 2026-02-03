@@ -76,7 +76,11 @@ importers:
         specifier: ^9.0.3
         version: 9.0.3
 
-  packages/core: {}
+  packages/core:
+    dependencies:
+      '@automerge/automerge':
+        specifier: ^3.2.3
+        version: 3.2.3
 
   packages/file-system: {}
 
@@ -88,10 +92,15 @@ importers:
 
   packages/shared-types: {}
 
+  packages/ui: {}
+
 packages:
 
   7zip-bin@5.2.0:
     resolution: {integrity: sha512-ukTPVhqG4jNzMro2qA9HSCSSVJN3aN7tlb+hfqYCt3ER0yWroeA2VR38MNrOHLQ/cVj+DaIMad0kFCtWWowh/A==}
+
+  '@automerge/automerge@3.2.3':
+    resolution: {integrity: sha512-pQJWGGFWZuVC4p4e0ZtRkpYvgGHf8VeT4Vt+LqSdSEA95xHJB/CgyCDW9nC2bugBATL/Qxm8Won1mEYcx7YPEQ==}
 
   '@babel/code-frame@7.29.0':
     resolution: {integrity: sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==}
@@ -2546,6 +2555,8 @@ packages:
 snapshots:
 
   7zip-bin@5.2.0: {}
+
+  '@automerge/automerge@3.2.3': {}
 
   '@babel/code-frame@7.29.0':
     dependencies:

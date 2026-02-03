@@ -1,3 +1,6 @@
 {
-  "name": "@charm-editor/core"
+  "name": "@charm-editor/core",
+  "dependencies": {
+    "@automerge/automerge": "^3.2.3"
+  }
 }
