@@ -1,0 +1,6 @@
+{
+  "name": "@charm-editor/monaco-wrapper",
+  "dependencies": {
+    "@monaco-editor/react": "^4.7.0"
+  }
+}
