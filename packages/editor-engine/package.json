@@ -1,5 +1,5 @@
 {
-  "name": "@charm-editor/monaco-wrapper",
+  "name": "@charm-editor/editor-engine",
   "dependencies": {
     "@monaco-editor/react": "^4.7.0"
   }
