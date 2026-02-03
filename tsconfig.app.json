@@ -11,9 +11,9 @@
 
     "paths": {
       "@core/*": ["./packages/core/*"],
-      "@fs/*": ["./packages/file-system/src/*"],
-      "@ui/*": ["./packages/ui/src/*"],
-      "@monaco/*": ["./packages/monaco-wrapper/src/*"],
+      "@fs/*": ["./packages/file-system/*"],
+      "@ui/*": ["./packages/ui/*"],
+      "@editor-engine/*": ["./packages/editor-engine/*"],
       "@types/*": ["./packages/shared-types/*"]
     },
 
